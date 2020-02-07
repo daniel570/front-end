@@ -8,3 +8,5 @@ jobs:
       - run:
           name: "Testing"
           command: echo "Hi"
+          command: ls
+          command: pwd
