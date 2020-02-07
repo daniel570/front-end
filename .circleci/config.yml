@@ -10,4 +10,10 @@ workflows:
   welcome:
     # Run the welcome/run job in its own container
     jobs:
-      - welcome/run
+      build:
+    steps:
+      - run:
+    command: |
+      echo Running test
+      mkdir -p /tmp/test-results
+
