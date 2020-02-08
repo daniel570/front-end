@@ -7,6 +7,4 @@ jobs:
       - checkout
       - run:
           name: "Testing"
-          command: echo "Hi"
-          command: ls
-          command: pwd
+          command: echo "Hi" && pwd && ls
